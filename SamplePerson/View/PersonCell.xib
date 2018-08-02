@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="customPersonCell" rowHeight="293" id="KGk-i7-Jjw" customClass="PersonCell" customModule="SamplePerson" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="293"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="292.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knw-3c-3ZM">
+                        <rect key="frame" x="16" y="22" width="288" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URU-dS-T02">
+                        <rect key="frame" x="16" y="51" width="288" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jeY-jR-S1H">
+                        <rect key="frame" x="16" y="80" width="288" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zE8-cw-Yqm">
+                        <rect key="frame" x="16" y="109" width="288" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wb-bk-jUb">
+                        <rect key="frame" x="16" y="138" width="288" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9c-zE-9rb">
+                        <rect key="frame" x="16" y="167" width="288" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YE1-oH-rsE">
+                        <rect key="frame" x="16" y="196" width="288" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Person" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFH-LK-hq2">
+                        <rect key="frame" x="16" y="221" width="288" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Person Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oeR-Il-qOi">
+                        <rect key="frame" x="16" y="250" width="288" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="J9c-zE-9rb" firstAttribute="height" secondItem="knw-3c-3ZM" secondAttribute="height" id="1TL-KU-bIy"/>
+                    <constraint firstItem="oeR-Il-qOi" firstAttribute="top" secondItem="XFH-LK-hq2" secondAttribute="bottom" constant="8" symbolic="YES" id="2ps-8t-zsp"/>
+                    <constraint firstItem="URU-dS-T02" firstAttribute="height" secondItem="knw-3c-3ZM" secondAttribute="height" id="3Yn-pK-qCK"/>
+                    <constraint firstItem="XFH-LK-hq2" firstAttribute="top" secondItem="YE1-oH-rsE" secondAttribute="bottom" constant="4" id="45W-wg-jN9"/>
+                    <constraint firstItem="URU-dS-T02" firstAttribute="top" secondItem="knw-3c-3ZM" secondAttribute="bottom" constant="8" symbolic="YES" id="4LG-yr-wEQ"/>
+                    <constraint firstItem="1Wb-bk-jUb" firstAttribute="leading" secondItem="J9c-zE-9rb" secondAttribute="leading" id="4LI-Lw-GTc"/>
+                    <constraint firstItem="zE8-cw-Yqm" firstAttribute="width" secondItem="knw-3c-3ZM" secondAttribute="width" id="6Mf-TZ-K1C"/>
+                    <constraint firstItem="XFH-LK-hq2" firstAttribute="leading" secondItem="oeR-Il-qOi" secondAttribute="leading" id="7sd-Xr-yOo"/>
+                    <constraint firstItem="URU-dS-T02" firstAttribute="leading" secondItem="jeY-jR-S1H" secondAttribute="leading" id="B2Z-A5-FbF"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="oeR-Il-qOi" secondAttribute="bottom" constant="11" id="GM9-eb-g3W"/>
+                    <constraint firstItem="knw-3c-3ZM" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="HTu-sb-xnb"/>
+                    <constraint firstItem="YE1-oH-rsE" firstAttribute="width" secondItem="knw-3c-3ZM" secondAttribute="width" id="Idh-fk-uWb"/>
+                    <constraint firstItem="jeY-jR-S1H" firstAttribute="width" secondItem="knw-3c-3ZM" secondAttribute="width" id="Jaj-87-8oI"/>
+                    <constraint firstItem="XFH-LK-hq2" firstAttribute="height" secondItem="knw-3c-3ZM" secondAttribute="height" id="Kf8-Cc-FSm"/>
+                    <constraint firstItem="zE8-cw-Yqm" firstAttribute="leading" secondItem="1Wb-bk-jUb" secondAttribute="leading" id="Ovp-SF-i2N"/>
+                    <constraint firstItem="knw-3c-3ZM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="RLK-ow-eyu"/>
+                    <constraint firstItem="1Wb-bk-jUb" firstAttribute="top" secondItem="zE8-cw-Yqm" secondAttribute="bottom" constant="8" symbolic="YES" id="T1W-PH-kin"/>
+                    <constraint firstItem="jeY-jR-S1H" firstAttribute="leading" secondItem="zE8-cw-Yqm" secondAttribute="leading" id="T8j-pZ-A5d"/>
+                    <constraint firstItem="knw-3c-3ZM" firstAttribute="leading" secondItem="URU-dS-T02" secondAttribute="leading" id="TSE-mq-9WC"/>
+                    <constraint firstItem="knw-3c-3ZM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="11" id="Thr-dg-drv"/>
+                    <constraint firstItem="J9c-zE-9rb" firstAttribute="top" secondItem="1Wb-bk-jUb" secondAttribute="bottom" constant="8" symbolic="YES" id="U5R-3i-KhY"/>
+                    <constraint firstItem="1Wb-bk-jUb" firstAttribute="height" secondItem="knw-3c-3ZM" secondAttribute="height" id="YOR-9E-muS"/>
+                    <constraint firstItem="1Wb-bk-jUb" firstAttribute="width" secondItem="knw-3c-3ZM" secondAttribute="width" id="ZMh-bY-bd6"/>
+                    <constraint firstItem="XFH-LK-hq2" firstAttribute="width" secondItem="knw-3c-3ZM" secondAttribute="width" id="a45-dk-Rl3"/>
+                    <constraint firstItem="YE1-oH-rsE" firstAttribute="top" secondItem="J9c-zE-9rb" secondAttribute="bottom" constant="8" symbolic="YES" id="ajd-WN-mHO"/>
+                    <constraint firstItem="oeR-Il-qOi" firstAttribute="width" secondItem="knw-3c-3ZM" secondAttribute="width" id="cPw-oD-MaI"/>
+                    <constraint firstItem="jeY-jR-S1H" firstAttribute="height" secondItem="knw-3c-3ZM" secondAttribute="height" id="d9Q-0C-nPo"/>
+                    <constraint firstItem="J9c-zE-9rb" firstAttribute="leading" secondItem="YE1-oH-rsE" secondAttribute="leading" id="eXE-fw-hkB"/>
+                    <constraint firstItem="zE8-cw-Yqm" firstAttribute="height" secondItem="knw-3c-3ZM" secondAttribute="height" id="fM3-32-fF6"/>
+                    <constraint firstItem="zE8-cw-Yqm" firstAttribute="top" secondItem="jeY-jR-S1H" secondAttribute="bottom" constant="8" symbolic="YES" id="j2G-zh-Bl9"/>
+                    <constraint firstItem="URU-dS-T02" firstAttribute="width" secondItem="knw-3c-3ZM" secondAttribute="width" id="jqT-ds-kMT"/>
+                    <constraint firstItem="YE1-oH-rsE" firstAttribute="height" secondItem="knw-3c-3ZM" secondAttribute="height" id="qJo-gF-piJ"/>
+                    <constraint firstItem="YE1-oH-rsE" firstAttribute="leading" secondItem="XFH-LK-hq2" secondAttribute="leading" id="tvf-5M-Y6n"/>
+                    <constraint firstItem="oeR-Il-qOi" firstAttribute="height" secondItem="knw-3c-3ZM" secondAttribute="height" id="twN-eD-8XX"/>
+                    <constraint firstItem="J9c-zE-9rb" firstAttribute="width" secondItem="knw-3c-3ZM" secondAttribute="width" id="vWz-P7-EpN"/>
+                    <constraint firstItem="jeY-jR-S1H" firstAttribute="top" secondItem="URU-dS-T02" secondAttribute="bottom" constant="8" symbolic="YES" id="zb7-8H-TMK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lbl_Address" destination="YE1-oH-rsE" id="AY3-yQ-q9C"/>
+                <outlet property="lbl_Age" destination="zE8-cw-Yqm" id="Fth-Xe-Tvm"/>
+                <outlet property="lbl_Birthday" destination="jeY-jR-S1H" id="Lu5-JE-QCL"/>
+                <outlet property="lbl_CPAddress" destination="oeR-Il-qOi" id="Y6H-Jz-Peq"/>
+                <outlet property="lbl_CPerson" destination="XFH-LK-hq2" id="b44-5q-Qt2"/>
+                <outlet property="lbl_email" destination="1Wb-bk-jUb" id="Sr9-jf-gIs"/>
+                <outlet property="lbl_firstName" destination="knw-3c-3ZM" id="giB-xG-sqL"/>
+                <outlet property="lbl_lastName" destination="URU-dS-T02" id="zaw-5V-HuI"/>
+                <outlet property="lbl_mobileNum" destination="J9c-zE-9rb" id="xdv-ep-f6y"/>
+            </connections>
+            <point key="canvasLocation" x="28" y="178.5"/>
+        </tableViewCell>
+    </objects>
+</document>

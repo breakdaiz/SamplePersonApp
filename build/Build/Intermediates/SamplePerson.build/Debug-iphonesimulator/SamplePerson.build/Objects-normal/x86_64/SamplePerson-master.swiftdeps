@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "d0e37199e58513b967baa3f9f1aef771"
+build_time: [1533194311, 204930000]
+inputs:
+  "/Users/bernard/Desktop/Bernard/Xcode App/SamplePerson/SamplePerson/Model/Person.swift": [1533193294, 0]
+  "/Users/bernard/Desktop/Bernard/Xcode App/SamplePerson/SamplePerson/Controller/PersonCell.swift": [1533193203, 0]
+  "/Users/bernard/Desktop/Bernard/Xcode App/SamplePerson/SamplePerson/Controller/PersonDetailedVC.swift": [1533194054, 0]
+  "/Users/bernard/Desktop/Bernard/Xcode App/SamplePerson/SamplePerson/Controller/AppDelegate.swift": [1533085674, 0]
+  "/Users/bernard/Desktop/Bernard/Xcode App/SamplePerson/SamplePerson/Controller/PersonVC.swift": [1533189820, 0]
